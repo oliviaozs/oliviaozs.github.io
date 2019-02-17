@@ -1,0 +1,35 @@
+.title {
+  background-color: rgba(206, 73, 18, 74%);
+  height: 15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: futura;
+  font-weight: bold;
+}
+
+.content {
+  background-color: white;
+  padding-top: 3em;
+  padding-left: 8em;
+  padding-right: 8em;
+  font-family: futura;
+}
+
+.title-text {
+  color: white;
+  font-size: 2.8em;
+  margin: 0.5em;
+}
+
+.content-text {
+  color: #363636;
+  font-size: 1.1em;
+}
+
+.image {
+  width: 11em;
+  height: auto;
+  margin: 0.5em;
+}

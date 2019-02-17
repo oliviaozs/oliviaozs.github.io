@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/NavBar.css";
+import resume from "../Images/Olivia_Shiah_Resume.pdf";
 
 class NavBar extends Component {
   render() {
@@ -17,19 +18,14 @@ class NavBar extends Component {
           </Link>
         </div>
         <div>
-          <Link to="/projects" className="item">
-            Projects
-          </Link>
-        </div>
-        <div>
           <Link to="/fun" className="item">
             For Fun
           </Link>
         </div>
         <div>
-          <Link to="/resume" className="item">
+          <a href={resume} className="item">
             Resume
-          </Link>
+          </a>
         </div>
         <div>
           <Link to="/contact" className="item">
