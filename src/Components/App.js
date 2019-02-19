@@ -9,7 +9,7 @@ import Fun from "./Fun";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <NavBar />
           <Route name="home" exact path="/" component={Home} />
